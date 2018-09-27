@@ -1,0 +1,13 @@
+BUSINESS UNDERSTANDING
+
+1) BUSINESS OBJECTIVE   : To Predicting Injury Severity
+2) SUCCESS CRITERIA     : Correctly Predicting Injury Severity
+3) RESOURCES            : Given dataset, Crash.dat
+4) ASSUMPTIONS          : Data is carefully taken and is error-free
+5) RISKS                : Wrong prediction of severity of injury
+6) REQUIREMENTS         : Clear multiple Regression model
+7) DATA MINING GOALS    : Determine indicator and superfluous variables
+8) DATA MINING SUCCESS  :
+               CRITERIA : Correctly Determining the Vaiables
+9) PROJECT PLAN         : Combine the Four Injury Measurement Variables into a Single Variable,
+                          Defending your Choice of Combination Function.
