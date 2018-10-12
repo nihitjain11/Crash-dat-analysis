@@ -1,0 +1,13 @@
+#1  THE FOLLOWING CODE CALCULATES TOTAL INJURIES
+    z=[]
+    for index, row in df.iterrows():
+         z.append(row.HEAD_INJ + row.CHEST_IN + row.RLEG_INJ + row.LLEG_INJ)
+    df['TOT_INJ'] = z
+    print(df)
+
+
+#2  THE FOLLOWING CODE TELLS THAT THERE IS NO RELATION BETWEEN DOORS AND INJURIES
+
+    print(df['DOORS'].corr(df['TOT_INJ']))
+    plt.scatter(df['DOORS'],df['TOT_INJ'])
+    plt.show()
