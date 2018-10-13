@@ -1,0 +1,21 @@
+Multicollinearity
+exists when two or more of the
+predictors (x variables) in a regression model are
+moderately or highly correlated (different column).
+When one of our predictors is able to strongly
+predict another predictor or have weird
+relationships with each other (maybe x2 = x3
+or x2 = 2(x3) + x4), then your regression equation
+is going to be a mess.
+
+
+The simplest method to detect collinearity would be to plot
+it out in graphs or to view a correlation matrix to check out
+pairwise correlation (correlation between 2 variables).
+
+If the degree of correlation between variables is high enough, 
+it can cause problems when you fit the model and interpret the results.
+The stronger the correlation, the more difficult it is to change one variable 
+without changing another. It becomes difficult for the model to estimate the 
+relationship between each independent variable and the dependent variable
+independently because the independent variables tend to change in unison.
