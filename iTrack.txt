@@ -1,0 +1,72 @@
+Abstract
+
+In this project, we wanted to analyse on Car Crash dataset and predict Head Injury using Multiple Regression. In our project, we first build a regression model considering all other variables as predictors. Thus, it results in errors due to multicollinearity, between the variables. Thus, in our next model, we eradicate multicollinearity using Backward Elimination and Stepwise Elimination. We calculate and find that our model is better from the previous one and the related values say it all. We, find from the dataset, the indicator variables and also the variables that are superfluous. The project is quite accurate in its predictions and results, and can be used for future references. In a world, where AI is in trends, it will rule the world in future, cars will be automated and driverless. In such a scenario, these results will be influential and beneficial for making such cars.
+
+
+
+
+
+System requirements
+
+Operating System: Windows 7 64 bit
+
+Processor: Intel Core i3
+
+RAM: 4GB
+
+Programming Languages: R, Python
+
+Software: Jupyter Notebook, RStudio
+
+Packages: pandas, numpy, matplotlib, seaborn, statsmodels, caTools, ggplot2
+
+* these are the minimum system requirements for running the code.
+
+
+
+
+Task System Analysis Documentation
+
+The various steps involved in the completion of the project are:
+
+1.     Business Understanding: In this, the business problem and the motivation of that problem had to be understood in order to act accordingly further in the project.
+
+This business problem was provided. Then further research on the particular domain was done using different resources over the internet.
+
+2.     Data Understanding: In this step, the roles and meanings of different variables present in the Dataset had to be understood. During the step, univariate analysis and multivariate analysis is done in order to gain insights about different variables and then decide which variable is important and how much data cleaning has to be performed on a particular variable.
+
+3.     Data Preparation: In this step data cleaning is performed in order to prepare data for further analysis and for building the machine learning model.
+
+4.     Modeling: In this step the appropriate machine learning model is selected, then dataset is divided into the training and test sets, and then finally the model is trained on the training data in order to get the best results.
+
+5.     Evaluation: In this step, the model is evaluated against the test set using various performance metrics like looking at R-squared, Adjusted R-squared, Residual Plots, etc.
+
+6.     Deployment: The model is then finalized after getting satisfied results in the previous step and finally delivered to the client for their use.
+
+
+
+
+
+
+Task System Design Documentation
+
+The model used for the completion of the product was CRISP-DM (Cross Industry Standard Process for Data Mining) which consists of 6 phases viz. Business Understanding Phase, Data Understanding Phase, Data pre-processing Phase, Modeling Phase, Evaluation Phase, Deployment Phase.
+
+
+
+
+Acceptance Test
+
+The following conclusions/predictions can be drawn from the analysis on the dataset:
+
+I. Head injury based on all other variables.
+
+II. Head injury based on all other variables when collinearity is taken into consideration.
+
+III. Total injury based on all other variables.
+
+IV. Total injury based on all other variables when collinearity is taken into consideration.
+
+V. The indicator variables are MAKE and DRIV_PAS.
+
+VI. The superfluous variable is CHEST_INJ.
